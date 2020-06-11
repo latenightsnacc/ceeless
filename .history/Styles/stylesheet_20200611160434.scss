@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+.navbar-toggler{
+    border: none !important;
+    .nav-icon{
+        display: flex;
+        flex-direction: column;
+        .long-bar-one, .long-bar-three, .short-bar-two{
+            border: 2px solid black;
+            margin-bottom: 5px;
+        }
+        .long-bar-one, .long-bar-three{
+            width: 33px;
+        }
+        .short-bar-two{
+            width: 20px;
+        }
+
+        &:hover{
+            .long-bar-one, .long-bar-three{
+                width: 20px;
+                transition: width 300ms ease-in-out 0s;
+                
+            }
+            .short-bar-two{
+                width: 33px;
+                
+            }
+        }
+    }
+}
+
+.header-wrapper{
+    .header-text{
+        .card{
+            border: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap");
+.align-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 400px;
+}
+
+.header-wrapper {
+  height: 100vh;
+}
+
+.header-wrapper .header-text .card {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-wrapper .header-text .card h1 {
+  font-size: 70px;
+  line-height: 70px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: black;
+}
+
+a.action-btn {
+  border: 1px solid black;
+  background-color: black;
+  width: 100px;
+  border-radius: 20px;
+  padding: 10px;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
+
+a.action-btn:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=header.css.map */

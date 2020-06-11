@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+}
+.navbar-toggler{
+    border: none !important;
+    .nav-icon{
+        display: flex;
+        flex-direction: column;
+        .long-bar-one, .long-bar-three, .short-bar-two{
+            border: 2px solid black;
+            margin-bottom: 5px;
+        }
+        .long-bar-one, .long-bar-three{
+            width: 40px;
+        }
+        .short-bar-two{
+            width: 20px;
+        }
+
+        &:hover{
+            transition: width 300ms ease-in-out 0s;
+            .long-bar-one, .long-bar-three{
+                width: 20px;
+                
+            }
+            .short-bar-two{
+                width: 35px;
+                
+            }
+        }
+    }
+}

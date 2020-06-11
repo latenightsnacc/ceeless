@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    .long-bar-one, .long-bar-three{
+        width: 50px;
+        border: 4px solid black;
+    }
+}

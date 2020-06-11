@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    .long-bar-one, .long-bar-three, .short-bar-two{
+        border: 3px solid black;
+        margin-bottom: 5px;
+    }
+    .long-bar-one, .long-bar-three{
+        width: 50px;
+    }
+    .short-bar-two{
+        width: 30px;
+    }
+
+}

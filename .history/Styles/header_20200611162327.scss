@@ -1,0 +1,24 @@
+@import 'variables';
+
+.align-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+.header-wrapper{
+    .header-text{
+        .card{
+            border: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 70px;
+                line-height: 70px;
+                font-family: $header-font;
+            }
+        }
+    }
+}

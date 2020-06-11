@@ -1,0 +1,35 @@
+@import 'variables';
+
+.align-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+.header-wrapper{
+    .header-text{
+        .card{
+            border: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 70px;
+                line-height: 70px;
+                font-family: $header-font;
+            }
+        }
+    }
+}
+.action-btn {
+    border: 1px solid $dark;
+    background-color: $dark;
+    color: $light;
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+
+}

@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap");
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler .nav-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar-toggler .nav-icon .long-bar-one, .navbar-toggler .nav-icon .long-bar-three, .navbar-toggler .nav-icon .short-bar-two {
+  border: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.navbar-toggler .nav-icon .long-bar-one, .navbar-toggler .nav-icon .long-bar-three {
+  width: 33px;
+}
+
+.navbar-toggler .nav-icon .short-bar-two {
+  width: 20px;
+}
+
+.navbar-toggler .nav-icon:hover .long-bar-one, .navbar-toggler .nav-icon:hover .long-bar-three {
+  width: 20px;
+  -webkit-transition: width 300ms ease-in-out 0s;
+  transition: width 300ms ease-in-out 0s;
+}
+
+.navbar-toggler .nav-icon:hover .short-bar-two {
+  width: 33px;
+}
+
+.nav-item .menu-text {
+  font-family: "IBM Plex Sans", sans-serif;
+  padding-right: 5px;
+  font-weight: 500;
+  color: black;
+}
+
+.nav-item .fa {
+  background-color: black;
+  color: white;
+  height: 70px;
+  width: 70px;
+  font-size: 50px;
+  border-radius: 50%;
+}
+
+.align-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 400px;
+}
+
+.header-wrapper {
+  height: 100vh;
+}
+
+.header-wrapper .header-text .card {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-wrapper .header-text .card h1 {
+  font-size: 70px;
+  line-height: 70px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+a.action-btn {
+  border: 1px solid black;
+  background-color: black;
+  width: 100px;
+  color: white;
+  line-height: 20px;
+}
+
+a.action-btn:hover {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: white;
+}
+/*# sourceMappingURL=stylesheet.css.map */

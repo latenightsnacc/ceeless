@@ -1,0 +1,40 @@
+@import 'variables';
+
+.navbar-toggler{
+    border: none;
+    .nav-icon{
+        display: flex;
+        flex-direction: column;
+        .long-bar-one, .long-bar-three, .short-bar-two{
+            border: 2px solid $dark;
+            margin-bottom: 5px;
+        }
+        .long-bar-one, .long-bar-three{
+            width: 33px;
+        }
+        .short-bar-two{
+            width: 20px;
+        }
+
+        &:hover{
+            .long-bar-one, .long-bar-three{
+                width: 20px;
+                transition: width 300ms ease-in-out 0s;
+                
+            }
+            .short-bar-two{
+                width: 33px;
+                
+            }
+        }
+    }
+}
+.nav-item {
+    .fa{
+        background-color: $dark;
+        color: $light;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+}
