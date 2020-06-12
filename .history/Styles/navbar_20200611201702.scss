@@ -30,13 +30,13 @@
     }
 }
 .nav-item {
-    display: flex;
     .menu-text{
         font-family: $font;
         padding-right: 5px;
         font-weight: 500;
         color: $dark;
-        
+        line-height: 20px;
+        font-size: 20px;
     }
     .fa{
         display: flex;

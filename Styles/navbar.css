@@ -36,22 +36,26 @@
   width: 33px;
 }
 
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .nav-item .menu-text {
   font-family: "IBM Plex Sans", sans-serif;
   padding-right: 5px;
   font-weight: 500;
   color: black;
-  line-height: 20px;
-  font-size: 20px;
 }
 
 .nav-item .fa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

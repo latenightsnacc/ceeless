@@ -31,11 +31,20 @@
           justify-content: center;
 }
 
-.header-wrapper .header-text .card h1 {
-  font-size: 70px;
-  line-height: 70px;
+.header-wrapper .header-text .card h1, .header-wrapper .header-text .card h5 {
   font-family: "IBM Plex Sans", sans-serif;
   color: black;
+}
+
+.header-wrapper .header-text .card h1 {
+  font-size: 70px;
+  line-height: 100px;
+}
+
+.header-wrapper .header-text .card h5 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 300;
 }
 
 a.action-btn {
