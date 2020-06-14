@@ -1,0 +1,20 @@
+@import 'variables';
+
+.ourWork-wrapper {
+    height: 100vh;
+    
+    .uk-slideshow-items {
+        img{
+            max-height: 1024px;
+        }
+    }
+
+    .what-we-do {
+        h2 {
+            font-weight: 700;
+            line-height: 50px;
+            font-family: $font;
+            font-size: 50px;
+        }
+    }
+}

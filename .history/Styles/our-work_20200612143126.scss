@@ -1,0 +1,29 @@
+@import 'variables';
+
+.ourWork-wrapper {
+    height: 100vh;
+    
+    .uk-slideshow-items {
+        img{
+            height: auto;
+        }
+    }
+
+    .what-we-do {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            font-weight: 700;
+            line-height: 50px;
+            font-family: $font;
+            font-size: 50px;
+            color: $dark;
+        }
+        p{
+            color: $dark;
+            font-family: $font;
+        }
+    }
+}

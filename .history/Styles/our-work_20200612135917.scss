@@ -1,0 +1,11 @@
+@import 'variables';
+
+.ourWork-wrapper {
+    height: 100vh;
+    
+    .uk-slideshow-items {
+        img{
+            height: 100vh;
+        }
+    }
+}
