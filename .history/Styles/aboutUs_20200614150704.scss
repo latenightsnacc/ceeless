@@ -2,17 +2,14 @@
 
 .aboutUs{
     margin-top: 10%;
-    .uk-overlay {
-        max-width: 300px;
-    }
-    .row {
 
+    .row {
         align-items: center;
-        .col{
-            img {
-                max-height: 300px;
-                width: 300px;
-            }
+        .col-3 {
+            border: 1px solid $dark;
+            height: 300px;
+            width: 100%;
+            background-color: $dark;
         }
     
         p{

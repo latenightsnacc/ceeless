@@ -1,0 +1,16 @@
+@import 'variables';
+
+.aboutUs{
+    margin-top: 10%;
+    .col-3 {
+        border: 1px solid $dark;
+        height: 300px;
+        width: 100%;
+        background-color: $dark;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

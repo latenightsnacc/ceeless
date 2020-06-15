@@ -3,7 +3,7 @@
 .aboutUs{
     margin-top: 10%;
     .uk-overlay {
-        max-width: 300px;
+        max-width: 100px;
     }
     .row {
 
@@ -11,7 +11,7 @@
         .col{
             img {
                 max-height: 300px;
-                width: 300px;
+                width: auto;
             }
         }
     

@@ -1,0 +1,50 @@
+@import 'variables';
+
+.contact-us {
+    background-color: $dark;
+    color: $light;
+
+    h2{
+        color: $light;
+        font-size: 70px;
+        font-weight: 700;
+        font-family: $font;
+    }
+
+    p{
+        color: $light;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: $font;
+    }
+}
+.form {
+    display: flex;
+    flex-direction: column;
+
+    .formRow {
+        padding: 20px 0px;
+        
+        input, textarea {
+            background-color: black;
+            font-family: $font;
+            font-weight: 300;
+            width: 500px;
+            border: none;
+            border-bottom: 2px solid $light;
+            padding: 10px;
+            font-size: 20px;
+        }
+        input::placeholder, textarea::placeholder {
+            color: $light;
+        }
+    }
+    .formRowBtn {
+        width: 500px;
+        color: $dark;
+        background-color: $light;
+        font-family: $font;
+        text-transform: uppercase;
+        
+    }
+}

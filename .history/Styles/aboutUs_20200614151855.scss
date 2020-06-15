@@ -2,16 +2,13 @@
 
 .aboutUs{
     margin-top: 10%;
-    .uk-overlay {
-        max-width: 300px;
-    }
-    .row {
 
+    .row {
         align-items: center;
+        flex-direction: column-reverse;
         .col{
             img {
                 max-height: 300px;
-                width: 300px;
             }
         }
     

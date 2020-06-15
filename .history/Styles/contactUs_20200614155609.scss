@@ -1,0 +1,23 @@
+@import 'variables';
+
+.contact-us {
+    background-color: $dark;
+    color: $light;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .formRow {
+        padding: 20px 0px;
+        
+        input, textarea {
+            background-color: black;
+        }
+        input::placeholder, textarea::placeholder {
+            color: $light;
+        }
+    }
+}

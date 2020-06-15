@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
+.contact-us {
+  background-color: black;
+  color: white;
+}
+
+.contact-us h2 {
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.contact-us p {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form .formRow {
+  padding: 20px 0px;
+}
+
+.form .formRow input, .form .formRow textarea {
+  background-color: black;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  width: 500px;
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.form .formRow input::-webkit-input-placeholder, .form .formRow textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+.form .formRow input:-ms-input-placeholder, .form .formRow textarea:-ms-input-placeholder {
+  color: white;
+}
+
+.form .formRow input::-ms-input-placeholder, .form .formRow textarea::-ms-input-placeholder {
+  color: white;
+}
+
+.form .formRow input::placeholder, .form .formRow textarea::placeholder {
+  color: white;
+}
+
+.form .formRowBtn input {
+  width: 500px;
+  color: black;
+  background-color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+  outline: none;
+  border: 1px solid white;
+  font-weight: 700;
+}
+/*# sourceMappingURL=contactUs.css.map */
