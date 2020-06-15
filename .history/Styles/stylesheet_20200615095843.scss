@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'navbar';
+@import 'header';
+@import 'our-work';
+@import 'aboutUs';
+@import 'contactUs';
+@import 'footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: white;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    margin: 0px 50px;
+}
+section {
+    height: 100vh;
+    padding: 20px 0px;
+}
+
+@media screen and (max-width: 600px){
+    .wrapper {
+        margin: 0px;
+    }
+}

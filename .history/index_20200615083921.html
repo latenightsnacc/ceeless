@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="Styles/stylesheet.css">
+
+    <!--Page Title-->
+    <title>Ceeless | Licorne Technologies</title>
+</head>
+<body>
+    <!--Main wrapper-->
+    <main class="wrapper ml-5 mr-5">
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-3">
+            <!--Logo-->
+            <a class="navbar-brand" href="#">Navbar</a>
+            <!--Mobile NavBar Icon-->
+            <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="nav-icon">
+                    <span class="long-bar-one"></span>
+                    <span class="short-bar-two"></span>
+                    <span class="long-bar-three"></span>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" title="Home"role="button" href="#"><span class="menu-text" id="homeText" >Home</span><i class="fa fa-home" id="homeIcon"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><span class="menu-text" id="aboutText">About</span><i class="fa fa-info" id="aboutIcon"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><span class="menu-text" id="abtText">Portfolio</span><i class="fa fa-tasks" aria-hidden="true" id="portfolioIcon"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="menu-text" id="abtText">Contact</span><i class="fa fa-send-o" id="contactIcon"></i></a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+        <!--End of NavBar-->
+
+        <!--Header wrapper-->
+        <section class="header-wrapper container-fluid">
+            <div class="row pt-5">
+                <!--Social Icons-->
+                <div class="col-3">
+                    <ul class="uk-iconnav uk-iconnav-vertical uk-align-right@s align-middle	">
+                        <li><a href="#" uk-icon="icon: plus"></a></li>
+                        <li><a href="#" uk-icon="icon: file-edit"></a></li>
+                        <li><a href="#" uk-icon="icon: copy"></a></li>
+                        <li><a href="#" uk-icon="icon: trash"></a></li>
+                    </ul>
+                </div>
+                <!--Header Message-->
+                <div class="col-9 header-text">
+                    <div class="card w-75">
+                        <h1>Ceeless Designs the future for those who create it.</h1>
+                        <h5>Create the ultimate experience with ceeless.</h5>
+                        <a href="#" class="action-btn">Start</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of Header wrapper-->
+
+        <!--Our Work-->
+        <section class="ourWork-wrapper mb-5">
+            <div class="row">
+                <!--Slider-->
+                <div class="col">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 700; max-height: 1200; autoplay: true; autoplay-interval: 3000; pause-on-hover: true" >
+
+                        <ul class="uk-slideshow-items" >
+                            <li>
+                                <img src="assets/DemoImage1.jpg" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="assets/DemoImage2.jpg" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="assets/DemoImage3.jpg" alt="" uk-cover>
+                            </li>
+                        </ul>
+                    
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                    
+                    </div>
+                </div>
+                <!--What we do-->
+                <div class="col">
+                    <div class="what-we-do pt-5">
+                        <h2 class="title">What we do</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam minus recusandae error sunt totam. Pariatur nihil rem blanditiis beatae doloremque aut sint minima illum facere delectus consequuntur sed rerum eligendi dicta nemo ipsum, iure et deleniti architecto! Ea magni possimus aliquid? Facere quis saepe velit, placeat distinctio similique animi vel.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of Header wrapper-->
+
+        <!-- About us-->
+        <section class="aboutUs  ">
+            <h3 class="title mt-5 text-center">who we are</h3>
+            <div class="row">
+                <div class="col">
+                    <p>Ceeless is a web design agency and we are focused on creating an online presence for brands and businesses that will drive growth.</p>
+                </div>
+                <div class="col">
+                    <!--Team Slideshow-->
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; autoplay: true; center: true">
+
+                        <ul class="uk-slider-items uk-grid">
+                            <li class="uk-width-3-4">
+                                <div class="uk-panel">
+                                    <img src="assets/DemoImage2.jpg" alt="">
+                                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                        <h3 class="uk-margin-remove">Bottom</h3>
+                                        <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="uk-width-3-4">
+                                <div class="uk-panel">
+                                    <img src="assets/DemoImage3.jpg" alt="">
+                                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                        <h3 class="uk-margin-remove">Bottom</h3>
+                                        <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="uk-width-3-4">
+                                <div class="uk-panel">
+                                    <img src="assets/DemoImage1.jpg" alt="">
+                                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                        <h3 class="uk-margin-remove">Bottom</h3>
+                                        <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of About us-->
+
+        <!--Contact us-->
+        <section class="contact-us">
+            <h2 class="pl-5">Work with us</h2>
+            <div class="row">
+                <div class="col">
+                    <p class="pl-5"> on your next project or get in touch for a chat</p>
+                </div>
+                <div class="col">
+                    <div class="form">
+                        <form method="POST" action="">
+                            <div class="formRow">
+                                <input type="text" placeholder="Company Name" required/>
+                            </div>
+                            <div class="formRow">
+                                <input type="email" placeholder="Email" required />
+                            </div>
+                            <div class="formRow">
+                                <input type="text" placeholder="Phone Number" required/>
+                            </div>
+                            <div class="formRow">
+                                <textarea type="text" placeholder="Tell us about your project" rows="4" required></textarea>
+                            </div>
+                            <div class="formRowBtn">
+                                <input type="submit" value="Talk to us"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer mt-5">
+        <p class="pt-2">&copy; Ceeless Designs</p>
+    </footer>
+     <!-- UIkit JS -->
+     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   
+    <script src="Js/scripts.js"></script>
+</body>
+</html>

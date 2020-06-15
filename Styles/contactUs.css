@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
-.contact-us {
+.contact-us, .uk-modal-dialog, .uk-modal-close-full {
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 
-.contact-us h2 {
+.contact-us h2, .uk-modal-dialog h2, .uk-modal-close-full h2 {
   color: white;
   font-size: 70px;
   font-weight: 700;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-.contact-us p {
+.contact-us p, .uk-modal-dialog p, .uk-modal-close-full p {
   color: white;
   font-size: 30px;
   font-weight: 700;
@@ -69,5 +70,39 @@
   outline: none;
   border: 1px solid white;
   font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-us .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-us .row .col {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .contact-us h2 {
+    font-size: 50px;
+  }
+  .contact-us p {
+    font-size: 20px;
+  }
+  .form {
+    width: 320px;
+    padding: 0px 10px;
+  }
+  .form input, .form textarea {
+    width: 300px;
+    font-size: 18px;
+  }
+  .form .formRowBtn input {
+    width: 300px;
+  }
 }
 /*# sourceMappingURL=contactUs.css.map */

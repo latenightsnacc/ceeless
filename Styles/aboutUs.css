@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&display=swap");
-.aboutUs {
-  margin-top: 10%;
-}
-
 .aboutUs .uk-overlay {
   max-width: 300px;
 }
@@ -21,5 +17,28 @@
 .aboutUs .row p {
   font-size: 20px;
   line-height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutUs .uk-overlay {
+    max-width: 300px;
+  }
+  .aboutUs .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .aboutUs .row .col img {
+    max-height: 300px;
+    width: 300px;
+  }
+  .aboutUs .row p {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 /*# sourceMappingURL=aboutUs.css.map */

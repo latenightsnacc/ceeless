@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'navbar';
+@import 'header';
+@import 'our-work';
+@import 'aboutUs';
+@import 'contactUs';
+@import 'footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: white;
+}
+
+section {
+    height: 100vh;
+    padding: 20px 0px;
+}

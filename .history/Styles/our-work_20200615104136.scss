@@ -1,0 +1,48 @@
+@import 'variables';
+
+.ourWork-wrapper {
+    height: 100vh;
+    
+
+    .what-we-do {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+.list {
+    li{
+        color: $dark;
+        font-weight: 500;
+        line-height: 20px;
+        font-size: 20px;
+        font-family: $font;
+    }
+}
+.uk-progress { // this is its background, you could add those to your created classes if you want to also modify this color
+    &::-webkit-progress-bar { background-color: $light; }
+    &::-moz-progress-bar { background-color: $light; }
+  }
+  .uk-progress-danger { // created class for customisation
+    &::-webkit-progress-value { background-color:$dark; } // those are the overflowing colors
+    &::-ms-fill { background-color: $dark; }
+  }
+
+.title {
+    font-weight: 700;
+    line-height: 70px;
+    font-family: $font;
+    font-size: 70px;
+    color:$dark;
+    text-shadow: $btn-shadow;
+}
+p{
+    color: $dark;
+    font-family: $font;
+}
+
+@media screen and (max-width: 600px){
+
+}

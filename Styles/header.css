@@ -63,4 +63,23 @@ a.action-btn {
 a.action-btn:hover {
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .align-middle {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    height: auto;
+  }
+  .header-wrapper .header-text .card h1 {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+  .header-wrapper .header-text .card h5 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+}
 /*# sourceMappingURL=header.css.map */

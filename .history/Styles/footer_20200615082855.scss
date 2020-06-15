@@ -1,0 +1,15 @@
+@import 'variables';
+
+.footer {
+    background-color: $dark;
+    
+    display: flex;
+    justify-content: center;
+   
+
+    p{
+        color: $light;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
