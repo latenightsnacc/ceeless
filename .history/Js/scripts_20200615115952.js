@@ -1,4 +1,4 @@
-if(false === ''){
+if(false == ''){
     console.log('true');
 }
 
